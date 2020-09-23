@@ -12,4 +12,4 @@ For Service Part I have used Json Server for which I have created a db.json file
 2. Go to Assets folder and run "json-server db.json" command to run the json server which will give a rest API kind of feature to handle all CRUD application for the to Do App.
 
 **Screenshot**
-![](src/assets/ToDoApp.png)
+![](src/assets/ToDoApp.PNG)
