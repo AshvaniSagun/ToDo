@@ -2,12 +2,14 @@
     <tr>
       <th>ToDo's</th>
       <th>Description</th>
+      <th>CreatedAt</th>
       <th>Edit</th>
       <th>Delete</th>
     </tr>
     <tr class="checked" *ngFor="let toDo of toDoService.allToDo">
       <td>{{toDo.title}}</td>
       <td>{{toDo.text}}</td>
+      <td>{{appointmentTime | date:'medium'}}</td>
       <td>
     <a class="btn" (click)="editToDo(toDo)">
           <i class="fa fa-edit"></i>

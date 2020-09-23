@@ -9,7 +9,7 @@ import { ToastrService } from 'ngx-toastr';
   styleUrls: ['./toDoForm.component.css']
 })
 export class ToDoComponent implements OnInit {
-
+  appointmentTime  = new Date();
   constructor(
     private toDoService: toDoService,
     private toastrService: ToastrService
@@ -31,6 +31,7 @@ export class ToDoComponent implements OnInit {
       (result: toDo) => {
         this.toDoService.getallToDo();
         this.toastrService.success('Created a new Task !');
+        this.appointmentTime.getDate();
         this.clearToDo();
       });
   }
