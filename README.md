@@ -1,8 +1,9 @@
---------------To Do Management Application------------
+To Do Management Application
+----------------------------
 Name - Ashvani Sagun  UI Developer
--------------------------------------------------------
+----------------------------------
 Technologies Used : Angular , HTML, CSS ,TypeScript and Bootstrap.
---------------------------------------------------------------------
+------------------------------------------------------------------
 This application is made using Simple CRUD operations having 2 Modues. 
 For Service Part I have used Json Server for which I have created a db.json file under assets.
 ==============================================================================================
